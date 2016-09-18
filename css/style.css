@@ -921,6 +921,7 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
+
 						color: white;
 						display: inline-block;
 						text-decoration: none;
@@ -928,6 +929,7 @@
 
 						#header nav > ul > li a:hover {
 							color: #3399ff;
+							text-decoration: overline;
 						}
 
 					#header nav > ul > li:first-child {
@@ -1032,11 +1034,15 @@
 		.wrapper.style2 header {
 			margin-bottom: 4em;
 		}
-
-		.wrapper.style2 .feature {
-			margin: 0 0 2em 0;
+		
+		.wrapper.style2 h2{
+			font-weight: bold;
 		}
 
+		.wrapper.style2 .feature .title {
+			margin: 0 0 2em 0;
+			font-weight: bold;
+		}
 /* Footer */
 
 	#footer {
