@@ -1135,6 +1135,7 @@
 	margin: 0;
 	padding: 0;
 	padding-left: 5px;
+	transition: top 2s ease;
 }
 
 .dropdown-content a{
@@ -1157,4 +1158,10 @@
 .dropbtn{
 	margin-left: 1em;
 	top: 20px;
+}
+
+#large{
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 50px;
 }
