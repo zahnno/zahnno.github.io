@@ -1185,6 +1185,9 @@
 .padded{
 	padding: 50px 30% 50px 10%;
 }
+ .width{
+ 	width: 25% !important;
+ }
 
 .banner2 {
 	background: url("images/overlay.png"), url("../images/ARCHERY.png") !important;
