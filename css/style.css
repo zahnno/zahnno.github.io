@@ -860,14 +860,14 @@
 /* Header */
 
 	body.landing #header {
-		background-color: black;
+		background-color: white;
 		position: fixed;
 		left: 0;
 		top: 0;
 	}
 
 	#header {
-		background-color: black;
+		background-color: white;
 		position: fixed;
 		color: #ffffff;
 		cursor: default;
@@ -875,6 +875,7 @@
 		line-height: 4.75em;
 		width: 100%;
 		z-index: 10000;
+		border-bottom: solid 1px #eee;
 	}
 
 		#header h1 {
@@ -921,8 +922,9 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						border-top: 4px solid black;
-						color: white;
+						border-top: 4px solid white;
+						transition: border-top 0.2s ease-in-out;
+						color: black;
 						display: inline-block;
 						text-decoration: none;
 					}
@@ -957,6 +959,10 @@
 			#header .container nav {
 				right: 0;
 			}
+
+		#header img{
+			margin-top: 25px;
+		}
 
 /* Banner */
 
@@ -1111,7 +1117,7 @@
 .dropdown a{
 	text-decoration: none;
 	margin-left: 1em;
-	color: white;
+	color: black;
 }
 
 .dropdown:hover a{
@@ -1122,16 +1128,17 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #262626;
-    font-size: 0.7em;
-    color: white;
+    background-color: white;
+    font-size: 0.9em;
+    color: black;
+    width: 140px;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     list-style: none;
     top: 74px;
     left: 10px;
 	border-top: 4px solid #3399ff;
-	border-left: 2px solid #3399ff;
+	border-left: 4px solid #3399ff;
 	margin: 0;
 	padding: 0;
 	padding-left: 5px;
@@ -1139,14 +1146,14 @@
 }
 
 .dropdown-content a{
-	color: #cccccc !important;
+	color: black !important;
 	margin: 0;
 }
 
 .dropdown-content div:hover {
-	background-color: #1a1a1a;
-	transition: background-color 0.2s ease-in-out;
-	color: white;
+	border-right: 10px solid #3399ff;
+	transition: border-right 0.2s ease-in-out;
+	color: #3399ff;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -1158,6 +1165,7 @@
 .dropbtn{
 	margin-left: 1em;
 	top: 20px;
+	color: black;
 }
 
 #large{
@@ -1168,4 +1176,20 @@
 
 #styled{
 	font-family: "Raleway";
+}
+
+.seperate{
+	margin-top: 100px;
+}
+
+.padded{
+	padding: 50px 30% 50px 10%;
+}
+
+.banner2 {
+	background: url("images/overlay.png"), url("../images/ARCHERY.png") !important;
+}
+
+.banner3{
+	background: url("images/overlay.png"), url("../images/Audioshield.png") !important;
 }
