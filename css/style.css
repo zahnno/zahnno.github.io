@@ -1138,10 +1138,9 @@
     top: 74px;
     left: 10px;
 	border-top: 4px solid #3399ff;
-	border-left: 4px solid #3399ff;
+	border-left: 1px solid #3399ff;
 	margin: 0;
 	padding: 0;
-	padding-left: 5px;
 	transition: top 2s ease;
 }
 
@@ -1160,6 +1159,12 @@
 }
 .dropdown:hover .dropbtn {
     color: #3399ff;
+}
+
+.dropdown-content div{
+	font-size: 1.1em;
+	padding-left: 5%;
+	border-bottom: 1px solid #3399ff;
 }
 
 .dropbtn{
