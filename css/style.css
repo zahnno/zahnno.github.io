@@ -1131,7 +1131,7 @@
     background-color: white;
     font-size: 0.9em;
     color: black;
-    width: 140px;
+    width: 160px;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     list-style: none;
@@ -1218,4 +1218,18 @@
 
 .space{
 	margin-bottom: 10% !important;
+}
+
+.smaller{
+	width: 50% !important;
+	margin-left: 25% !important;
+}
+
+.more{
+	margin-top: 100px;
+}
+
+.learn{
+	background: #31aade;
+	margin-top: 100px;
 }
