@@ -1233,3 +1233,11 @@
 	background: #31aade;
 	margin-top: 100px;
 }
+
+#mobile-h2{
+	border-top: 50px solid #31aade;
+	margin-top: 120px;
+	padding: 100px 10% 50px;
+	width: 100%;
+	font-size: 2em;
+}
