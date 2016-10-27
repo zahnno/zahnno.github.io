@@ -744,14 +744,14 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #42b972;
+			background-color: #0d7da3;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #34935a;
+			background-color: #8ed9f2;
 		}
 
 		input[type="submit"].icon,
@@ -1236,8 +1236,54 @@
 
 #mobile-h2{
 	border-top: 50px solid #31aade;
+	border-bottom: 50px solid #31aade;
 	margin-top: 120px;
-	padding: 100px 10% 50px;
+	padding: 100px 10% 100px;
 	width: 100%;
 	font-size: 2em;
 }
+
+#perfect-for{
+	width: 100%;
+	margin-bottom: 45px;
+	padding-right: 70%;
+}
+
+#perfect{
+	padding-top: 5%;
+}
+
+.span{
+	font-size: 1em;
+}
+
+#span-container{
+	width: 70%;
+	padding-left: 35%;
+}
+
+.side-by-side{
+	margin: 0;
+	padding: 0;
+}
+
+.side-by-side img{
+	display: inline-block;
+	width:49.5%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
