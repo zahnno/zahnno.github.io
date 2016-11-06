@@ -21,7 +21,7 @@
 	}
 
 		header.major h2 {
-			font-size: 2em;
+			font-size: 3em;
 		}
 
 		header.major p {
@@ -31,7 +31,7 @@
 /* Banner */
 
 	#banner {
-		padding: 10em 2em 8em;
+		padding: 14em 2em 6em;
 	}
 
 		#banner h2 {

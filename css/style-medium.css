@@ -113,19 +113,63 @@
 	display: block;
 	height: 195px;
     width: 210px;
-    padding-top: 8px !important;
 }
 
 .dropdown-content{
-	top: 40px;
+	top: 20px;
 	border: none;
-	width: 220px;
+	width: 96%;
 	background: none;
 	display: block;
-	font-size: 1.0em;
-	padding: 5px;
+	font-size: 0.9em;
+	padding: 0;
 }
 
 .dropdown-content div{
 	margin-bottom: 0.7em;
+	padding-bottom: 8.8px;
 }
+
+.dropdown-content a{
+	padding-bottom: 5px;
+}
+
+.test{
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+#img-left{
+	display:none;
+}
+
+#img-right{
+	display: none;
+}
+
+#img-right-2{
+	display: none;
+}
+
+.learn{
+	margin-top: 100px;
+	width: 50%
+}
+
+.left-div{
+	margin: 0;
+}
+
+#bacteria{
+	display: none;
+}
+
+#span-container{
+	font-size: 0.8em;
+}
+
+#dev-h1{
+	font-size: 3em;
+}
+
+

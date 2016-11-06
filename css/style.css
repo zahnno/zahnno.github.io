@@ -788,7 +788,7 @@
 		input[type="reset"].big,
 		input[type="button"].big,
 		.button.big {
-			font-size: 1.70em;
+			font-size: 1em;
 		}
 
 		input[type="submit"].alt,
@@ -972,7 +972,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 16em 0em 14em;
+		padding: 12% 0 20px;
 		text-align: center;
 	}
 
@@ -1109,7 +1109,7 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
-				
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -1134,8 +1134,8 @@
     color: black;
     width: 160px;
     min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    list-style: none;
+/*    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+*/    list-style: none;
     top: 74px;
     left: 10px;
 	border-top: 4px solid #3399ff;
@@ -1186,7 +1186,6 @@
 
 #styled{
 	font-family: "Raleway";
-	margin: 0;
 }
 
 .seperate{
@@ -1196,9 +1195,6 @@
 .padded{
 	padding: 50px 30% 50px 10%;
 }
- .width{
- 	width: 25% !important;
- }
 
 .banner2 {
 	background: url("images/overlay.png"), url("../images/ARCHERY.png") !important;
@@ -1232,7 +1228,6 @@
 .learn{
 	background: #00ffff;
 	color: black;
-	width: 100%;
 	text-align: center;
 	margin-bottom: 75px;
 }
@@ -1293,3 +1288,33 @@
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 /* End hide from IE-mac */
+
+#img-left{
+	width: 40%; 
+	margin-left: 50px;
+}
+
+#img-right{
+	width: 35%; 
+	margin-right: 5%; 
+	float: right
+}
+
+#img-right-2{
+	width: 30%; 
+	margin-right: 10%; 
+	float: right;
+}
+
+.left-div{
+	margin-left: 5%; 
+	float:left;
+}
+
+#bacteria{
+	margin: 0;
+}
+
+#dev-h1{
+	font-size: 4em;
+}
