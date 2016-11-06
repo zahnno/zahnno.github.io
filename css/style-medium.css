@@ -169,7 +169,11 @@
 }
 
 #dev-h1{
-	font-size: 3em;
+	font-size: 2.5em;
+}
+
+.mob{
+	padding: 0 25px 35px;
 }
 
 
