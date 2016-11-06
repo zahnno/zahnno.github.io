@@ -788,7 +788,7 @@
 		input[type="reset"].big,
 		input[type="button"].big,
 		.button.big {
-			font-size: 1.35em;
+			font-size: 1.70em;
 		}
 
 		input[type="submit"].alt,
@@ -1214,7 +1214,6 @@
 	float: right;
 	width: 50%;
 	padding-right: 2%;
-	margin-bottom: 70px !important;
 }
 
 .space{
@@ -1231,8 +1230,11 @@
 }
 
 .learn{
-	background: #31aade;
-	margin-top: 100px;
+	background: #00ffff;
+	color: black;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 75px;
 }
 
 #mobile-h2{
@@ -1246,23 +1248,19 @@
 
 #perfect-for{
 	width: 100%;
+	text-align: center;
 	margin-bottom: 45px;
-	padding-right: 70%;
+/*	padding-right: 70%;*/
 }
 
 #perfect{
-	padding-top: 5%;
+	padding: 12%;
 }
 
 .span{
 	font-size: 1em;
-	margin-bottom: 100px !important;
+	margin-bottom: 100px;
 	color: white;
-}
-
-#span-container{
-	width: 70%;
-	padding-left: 35%;
 }
 
 .side-by-side{
@@ -1273,6 +1271,11 @@
 .side-by-side img{
 	display: inline-block;
 	width:49.5%;
+}
+
+.button-mid{
+	margin: 0;
+	text-align: center;
 }
 
 .clearfix:after {
