@@ -155,7 +155,6 @@
 
 .learn{
 	margin-top: 100px;
-	width: 50%
 }
 
 .left-div{
@@ -185,6 +184,10 @@
 
 #dropdown{
 	height: 210px;
+}
+
+.dropdown:hover .dropbtn {
+    color: black;
 }
 
 
