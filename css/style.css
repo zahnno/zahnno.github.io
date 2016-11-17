@@ -788,7 +788,7 @@
 		input[type="reset"].big,
 		input[type="button"].big,
 		.button.big {
-			font-size: 1em;
+			font-size: 1.5em;
 		}
 
 		input[type="submit"].alt,
@@ -1041,7 +1041,7 @@
 		.wrapper.style2 header {
 			margin-bottom: 4em;
 		}
-		
+
 		.wrapper.style2 h2{
 			font-weight: bold;
 		}
@@ -1051,7 +1051,7 @@
 			font-weight: bold;
 			font-size: 1.5em;
 		}
-		
+
 		.wrapper.style2 .feature p{
 			margin-bottom: 6em;
 		}
@@ -1290,24 +1290,24 @@
 /* End hide from IE-mac */
 
 #img-left{
-	width: 40%; 
+	width: 40%;
 	margin-left: 50px;
 }
 
 #img-right{
-	width: 35%; 
-	margin-right: 5%; 
+	width: 35%;
+	margin-right: 5%;
 	float: right
 }
 
 #img-right-2{
-	width: 30%; 
-	margin-right: 10%; 
+	width: 30%;
+	margin-right: 10%;
 	float: right;
 }
 
 .left-div{
-	margin-left: 5%; 
+	margin-left: 5%;
 	float:left;
 }
 
